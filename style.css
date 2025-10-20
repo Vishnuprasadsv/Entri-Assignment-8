@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#addTask::placeholder{
+    font-size: medium;
+    font-weight: normal;
+}
+
+.main{
+    height: fit-content; 
+    width: fit-content; 
+    border: 3px solid rgba(189, 189, 189, 0.626);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.strike{
+     text-decoration: line-through;
+}
+
+.maintasks{
+    accent-color:orangered; 
+    border: 2px solid rgb(206, 206, 206); 
+    box-shadow: 6px 6px 6px gray;
+}
